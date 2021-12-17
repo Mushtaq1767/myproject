@@ -1,0 +1,37 @@
+.square {
+  height: 150px;
+  width: 150px;
+  background-color:black;
+}
+.rectangle {
+  height: 100px;
+  width: 150px;
+  background-color:red;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 130px solid purple;
+}
+.circle {
+  height: 150px;
+  width: 150px;
+  background-color:blue;
+  border-radius: 150px;
+}
+section{
+display:flex;
+}
+.triangleup{
+	border-left: 100px solid black;
+	border-right: 25px solid black;
+	border-bottom: 50px solid #black;	
+}
+.triangledown{
+	border-left: 25px solid black;
+	border-right: 100px solid black;
+	border-top: 50px solid #black;	
+
+}
